@@ -31,7 +31,7 @@ class _QuizAppState extends State<QuizApp> {
 
   void checkAnswer(bool userPickedAnswer) {
 
-    if(quizBrain.questionNumber == 2) {
+    if(quizBrain.questionNumber == 12) {
       Alert(
         context: context,
         title: "Finished!",
